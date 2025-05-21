@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-inter bg-white text-black;
+  }
+}
+
+.bg-fortune-yellow {
+  background-color: #EAE0A5;
+} 
